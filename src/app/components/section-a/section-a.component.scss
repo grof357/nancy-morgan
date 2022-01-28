@@ -1,0 +1,17 @@
+.bacground {
+    position: relative;
+}
+
+.bg-image {
+
+    background-size: cover;
+    width: 100%;
+    height: 1007px;
+    position: absolute;
+    z-index: -1;
+    background: url(/assets/pictures/Hero.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+    background-color: rgba(0, 0, 0, 0.9);
+}

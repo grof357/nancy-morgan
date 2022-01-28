@@ -1,0 +1,78 @@
+.information {
+  padding-top: 18px;
+  padding-bottom: 15px;
+  padding-left: 202px;
+  padding-right: 202px;
+  
+}
+
+.information {
+  p {
+    letter-spacing: 0px;
+    // padding-right: 33px;
+    line-height: 19px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  img {
+    padding-right: 8px;
+    padding-top: 1px;
+  }
+  span {
+    margin-left: 0px;
+    padding-right: 36px;
+    padding-bottom: 0px;
+  }
+}
+
+.login-register-band {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  font-family: "Noto Sans Regular";
+  height: 56px;
+  color: white;
+  // font-size: 13.6px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+
+
+.image1 {
+  padding-bottom: 4px;
+}
+
+.phone {
+  padding-left: 4px;
+  padding-right: 1px;
+}
+
+.mail {
+  margin-right: -2px;
+}
+
+.question {
+  padding-right: 29px;
+}
+
+.register-login {
+
+    padding-top: 18px;
+    padding-bottom: 15px;
+    padding-right: 202px;
+    justify-content: end;
+    p {
+        color: white;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    img {
+        object-fit: none;
+    }
+}

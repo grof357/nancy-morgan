@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponentComponent } from './components/header-component/header-component.component';
 import { LoginRegisterBandComponent } from './components/login-register-band/login-register-band.component';
 import { SectionAComponent } from './components/section-a/section-a.component';
-import { LogoNavbarComponentComponent } from './components/logo-navbar-component/logo-navbar-component.component';
+import { LogoNavbarComponent } from './components/logo-navbar/logo-navbar.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,7 @@ import { LogoNavbarComponentComponent } from './components/logo-navbar-component
     HeaderComponentComponent,
     LoginRegisterBandComponent,
     SectionAComponent,
-    LogoNavbarComponentComponent
+    LogoNavbarComponent
   ],
   imports: [
     BrowserModule

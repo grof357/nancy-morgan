@@ -1,0 +1,87 @@
+.navbar {
+  padding-top: 26px;
+
+  .nav-link {
+    color: white;
+    font-size: 16px;
+    font-family: "Noto Sans, Medium";
+  }
+
+}
+.contact {
+  margin-left: 17px;
+  line-height: 28px;
+}
+.about-nancy {
+  margin-left: 26px;
+  line-height: 28px;
+}
+
+.blog {
+  line-height: 28px;
+  margin-left: 27px;
+}
+.media {
+  line-height: 28px;
+  margin-left: 27px;
+}
+.courses {
+  line-height: 28px;
+  margin-left: 28px;
+}
+.home {
+  line-height: 28px;
+}
+
+.logo-navbar {
+  padding-top: 59px;
+  justify-content: space-between;
+}
+.dropdown-toggle::after {
+  vertical-align: 2px;
+  margin-left: 0px;
+}
+
+.container {
+  max-width: 1516px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 202px;
+  margin-right: 202px;
+
+  .logo-image {
+    width: 262px;
+    padding-top: 17px;
+  }
+}
+
+.text-sectionA {
+  color: white;
+  margin-left: 202px;
+
+  h1 {
+  width: 550px;
+    font-size: 48px;
+    font-family: "Minion Pro, Bold";
+    padding-top: 53px;
+    line-height: 56px;
+
+  }
+  p {
+    width: 380px;
+    font-size: 18px;
+    font-family: "Noto Sans, Medium";
+    padding-top: 2px;
+    line-height: 30px;
+  }
+}
+.Button {
+  width: 164px;
+  height: 56px;
+  border-radius: 0px;
+  background-color: #D99E30;
+  font-family: "Noto Sans, Bold";
+  margin-top: 11px;
+  line-height: 22px;
+  font-size: 16px;
+}

@@ -1,4 +1,4 @@
-<div class="container  logo-navbar d-flex">
+<div class="container container1 logo-navbar d-flex">
   <img class="logo-image" src="/assets/pictures/zlatni-logo.png">
 
   <nav class="navbar navbar-expand-lg navbar-light ">
@@ -68,8 +68,73 @@
 </div>
 
 
+<!--..........................Slideshow..................................................-->
 
 
+<div class="container slideshow d-flex justify-content-end firstSlide">
+  <div class="buttons" style="display: flex; align-items: flex-end;">
+    <button type="button" class="btn btn-warning slide-btn" (click)="plusDivs(-1)">
+      < </button>
+    <button type="button" class="btn btn-warning slide-btn" (click)="plusDivs(+1)">></button>
+  </div>
+  <div class="mySlides " >
+    <div class="txt">
+      <h3>14 OCT 2021</h3>
+      <p class="first-slide-subtitle">LOREM IPSUM DOLOR SIT AMET, CONSETETUR</p>
+      <p class="first-slide-time"><img src="/assets/pictures/Clock.png" alt=""> <span>7:00 PM - 9:00 PM</span> </p>
+      <hr class="dash2">
+      <p class="first-slide-txt">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+        et accusam…</p>
+      <div class="d-flex">
+        <img class="heads" src="/assets/pictures/glavusa1.png">
+        <div>
+          <p class="first-slide-host">Host</p>
+          <p class="first-slide-name">NANCY MORGAN</p>
+        </div>
+      </div>
+    </div>
+    <div><img src="/assets/pictures/medicinska oprema.png" alt=""></div>
+  </div>
+
+
+  <div class="mySlides" style="display: none;">
+    <div class="txt">
+      <h3>27 AUG 2020</h3>
+      <p class="first-slide-subtitle">Lorem ipsum dolor sit amet consectetur.</p>
+      <p class="first-slide-time"><img src="/assets/pictures/Clock.png" alt=""> 7:00 PM - 9:00 PM</p>
+      <hr class="dash2">
+      <p class="first-slide-txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates
+        inventore facere natus
+        fugit animi, repellendus quia quos ratione debitis quod nesciunt molestias reprehenderit
+        nemo, dolor deserunt quasi odio esse?</p>
+      <img src="/assets/pictures/glavusa2.png" alt="">
+    </div>
+    <div><img src="/assets/pictures/masaza.png" alt=""></div>
+  </div>
+
+
+  <div class="mySlides" style="display: none;">
+    <div class="txt">
+      <h3>4 SEP 2020</h3>
+      <p class="first-slide-subtitle">Lorem ipsum dolor sit amet consectetur.</p>
+      <p class="first-slide-time"><img src="/assets/pictures/Clock.png" alt=""> 7:00 PM - 9:00 PM</p>
+      <p class="first-slide-txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates
+        inventore facere natus fugit
+        animi, repellendus quia quos ratione debitis quod nesciunt molestias reprehenderit nemo, dolor
+        deserunt quasi odio esse?</p>
+      <div class="d-flex">
+        <img src="/assets/pictures/glavusa3.png" alt="" style="object-fit: contain;">
+        <div style="margin-left: 10px;">
+          <p class="first-slide-host" style="color: black; margin-bottom: 10px;">host</p>
+          <p class="first-slide-name">WILLIAM ALEXANDER</p>
+        </div>
+
+      </div>
+    </div>
+    <div><img src="/assets/pictures/staka.png" alt=""></div>
+  </div>
+</div>
 
 
 

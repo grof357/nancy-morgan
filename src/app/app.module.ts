@@ -6,6 +6,7 @@ import { HeaderComponentComponent } from './components/header-component/header-c
 import { LoginRegisterBandComponent } from './components/login-register-band/login-register-band.component';
 import { SectionAComponent } from './components/section-a/section-a.component';
 import { LogoNavbarComponent } from './components/logo-navbar/logo-navbar.component';
+import { SectionBComponent } from './components/section-b/section-b.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { LogoNavbarComponent } from './components/logo-navbar/logo-navbar.compon
     HeaderComponentComponent,
     LoginRegisterBandComponent,
     SectionAComponent,
-    LogoNavbarComponent
+    LogoNavbarComponent,
+    SectionBComponent
   ],
   imports: [
     BrowserModule

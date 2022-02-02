@@ -7,6 +7,7 @@ import { LoginRegisterBandComponent } from './components/login-register-band/log
 import { SectionAComponent } from './components/section-a/section-a.component';
 import { LogoNavbarComponent } from './components/logo-navbar/logo-navbar.component';
 import { SectionBComponent } from './components/section-b/section-b.component';
+import { CardsComponentComponent } from './components/cards-component/cards-component.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SectionBComponent } from './components/section-b/section-b.component';
     LoginRegisterBandComponent,
     SectionAComponent,
     LogoNavbarComponent,
-    SectionBComponent
+    SectionBComponent,
+    CardsComponentComponent
   ],
   imports: [
     BrowserModule

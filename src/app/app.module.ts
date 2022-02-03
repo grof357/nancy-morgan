@@ -8,6 +8,9 @@ import { SectionAComponent } from './components/section-a/section-a.component';
 import { LogoNavbarComponent } from './components/logo-navbar/logo-navbar.component';
 import { SectionBComponent } from './components/section-b/section-b.component';
 import { CardsComponentComponent } from './components/cards-component/cards-component.component';
+import { BlackSlideComponent } from './components/black-slide/black-slide.component';
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -17,10 +20,12 @@ import { CardsComponentComponent } from './components/cards-component/cards-comp
     SectionAComponent,
     LogoNavbarComponent,
     SectionBComponent,
-    CardsComponentComponent
+    CardsComponentComponent,
+    BlackSlideComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

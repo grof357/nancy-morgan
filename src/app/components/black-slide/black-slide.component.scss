@@ -1,0 +1,68 @@
+.black-slide {
+  background-color: rgb(26, 26, 26);
+  height: 368px;
+}
+
+.carousel-inner {
+  color: white;
+  max-width: 1202px;
+  margin: auto;
+  text-align: center;
+}
+
+.carousel-inner .texts {
+  margin-top: 0px;
+  padding: 100px 100px 10px 100px;
+  margin-bottom: 0px;
+}
+
+.carousel-inner .names {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: auto !important;
+  height: auto !important;
+  background-color: transparent;
+  filter: grayscale(1);
+  opacity: 1;
+}
+
+.carousel-indicators {
+  bottom: -100px;
+}
+
+.carousel-indicators .active {
+  filter: unset;
+}
+
+.carousel-indicators [data-bs-target] {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.glava1 {
+  z-index: 1;
+
+}
+
+.glava2 {
+  margin-left: -8px;
+  z-index: -1;
+
+}
+
+.glava3 {
+  margin-left: -8px;
+  z-index: -2;
+
+}
+
+.glava4 {
+  margin-left: -8px;
+  z-index: -3;
+
+}
+
+

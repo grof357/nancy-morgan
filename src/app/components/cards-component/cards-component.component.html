@@ -1,0 +1,22 @@
+<div class="top-courses">
+  <h1>Browse Our Top Courses</h1>
+  <div class="container custom-container">
+    <div class="row gx-4 justify-content-center">
+
+      <div *ngFor="let item of cards">
+        <div class="card  ">
+          <div class="image">
+            <div class="image-limit"><img [src]="item.cardPicture" alt=""></div>
+            <p class="price">{{item.cardPrice}}</p>
+          </div>
+          <div class="card-body">
+            {{item.cardText}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

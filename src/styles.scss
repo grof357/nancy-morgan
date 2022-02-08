@@ -1,6 +1,6 @@
-body {
-    overflow-x: hidden
-}
+
+
+
 @import url("assets/fonts/Noto Sans Regular/stylesheet.css");
 @font-face {
   font-family: "Noto Sans, Medium";
@@ -15,4 +15,12 @@ body {
 @font-face {
   font-family: "Noto Sans, Bold";
   src: url("/assets/fonts/notosans-bold.ttf");
+}
+@font-face {
+  font-family: "Noto Sans, SemiBold";
+  src: url("/assets/fonts/Noto Sans, SemiBold/FontsFree-Net-NotoSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Noto Sans, Italic";
+  src: url("/assets/fonts/noto-sans-italic-maisfontes.5d21/noto-sans-italic.ttf");
 }

@@ -6,6 +6,21 @@
     text-align: center;
     padding-left: 18px;
   }
+
+  a {
+    text-decoration: none;
+    padding-bottom: 58px;
+  }
+  button {
+    background-color: #D99E30;
+    color: white;
+    border: none;
+    width: 238px;
+    height: 50px;
+    //margin-left: 17px;
+    font-family: "Noto Sans, SemiBold";
+    font-size: 14px;
+  }
 }
 
 .price {
@@ -43,14 +58,15 @@
 
 .card-body {
   color: black;
-  font: bold;
-  padding: 21px 30px 30px 30px;
-
+  padding: 25px 30px 30px 30px;
+  line-height: 22px;
+  font-family: 'Noto Sans Regular';
+  font-size: 16px;
 }
 
 .custom-container {
   max-width: 1652px;
-  margin-bottom: 40px;
+  margin-bottom: 3px;
 
   padding-left: 0px;
   padding-right: 0px;
@@ -114,7 +130,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-3.7 * var(--bs-gutter-x));
+  margin-right: calc(-3 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 

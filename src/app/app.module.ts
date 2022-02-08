@@ -11,6 +11,7 @@ import { CardsComponentComponent } from './components/cards-component/cards-comp
 import { BlackSlideComponent } from './components/black-slide/black-slide.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MediaComponent } from './components/media/media.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     LogoNavbarComponent,
     SectionBComponent,
     CardsComponentComponent,
-    BlackSlideComponent
+    BlackSlideComponent,
+    MediaComponent
   ],
   imports: [
     BrowserModule,

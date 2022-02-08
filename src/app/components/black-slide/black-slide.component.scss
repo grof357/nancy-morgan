@@ -1,24 +1,39 @@
 .black-slide {
   background-color: rgb(26, 26, 26);
   height: 368px;
+
+
 }
 
 .carousel-inner {
   color: white;
-  max-width: 1202px;
-  margin: auto;
+  max-width: 1217px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  font-family: "Noto Sans, Italic";
 }
 
 .carousel-inner .texts {
   margin-top: 0px;
-  padding: 100px 100px 10px 100px;
-  margin-bottom: 0px;
+  padding-top: 57px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 23px;
+  margin-bottom: 23px;
+  padding-left: 24px;
+  max-width: 1074px;
+  font-size: 22px;
+  font-weight: lighter;
+
 }
 
 .carousel-inner .names {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 31px;
+  font-size: 18px;
+  padding-left: 35px;
+  line-height: 24px;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -65,4 +80,16 @@
 
 }
 
+.carousel-control-prev {
+  font-size: 52px;
+  margin-bottom: 28px;
+  padding-right: 132px;
+  color: #D99E30;
+}
 
+.carousel-control-next {
+  font-size: 52px;
+  margin-bottom: 28px;
+  padding-left: 132px;
+  color: #D99E30;
+}

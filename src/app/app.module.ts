@@ -12,6 +12,7 @@ import { BlackSlideComponent } from './components/black-slide/black-slide.compon
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MediaComponent } from './components/media/media.component';
+import { ResourceLibraryComponent } from './components/resource-library/resource-library.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { MediaComponent } from './components/media/media.component';
     SectionBComponent,
     CardsComponentComponent,
     BlackSlideComponent,
-    MediaComponent
+    MediaComponent,
+    ResourceLibraryComponent
   ],
   imports: [
     BrowserModule,

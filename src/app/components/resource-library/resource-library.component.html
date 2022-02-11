@@ -1,0 +1,52 @@
+<div class="resource-library">
+  <hr>
+  <h1 class="title d-flex justify-content-center align-items-center">Resource Library</h1>
+
+  <div class="resource-library-slide">
+    <div id="carouselResourceLibarary" class="carousel slide carousel-fade" data-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row d-flex justify-content-center">
+            <div *ngFor="let item of cards">
+              <div class="resource-libarary-card ">
+                <div class="image-and-download-btn">
+                  <div data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="download-btn">
+                    <img src="/assets/pictures/download btn.png" alt="">
+                  </div>
+                  <div class="resourceImage"><img [src]="item.cardPicture"></div>
+
+                </div>
+                <div  class="config-txt">
+                  <p class="resource-item">{{item.cardResourceItem}}</p>
+                  <p class="resource-txt">{{item.cardText}}</p>
+                  <div>
+                    <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="download">DOWNLOAD
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselResourceLibarary"
+              data-bs-slide="prev">
+        <i id="chevron" class="fal fa-chevron-circle-left" aria-hidden="true"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselResourceLibarary"
+              data-bs-slide="next">
+        <i id="chevron" class="fal fa-chevron-circle-right" aria-hidden="true"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <a href="#" target="_blank" class="d-flex justify-content-center"
+         style="text-decoration: none; margin-bottom: 100px;">
+        <button class="seeAllResources">SEE ALL RESOURCES</button>
+      </a>
+    </div>
+  </div>
+
+
+</div>

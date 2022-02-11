@@ -1,0 +1,83 @@
+<div class="media">
+  <h1 class="title">Media</h1>
+
+
+  <div class="media-slide">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row d-flex justify-content-center">
+            <div *ngFor="let item of cards">
+              <div class="media-card">
+                <div style="position: relative;">
+                  <img class="image-modal" [src]="item.cardPicture"
+                       style="position: relative;">
+                  <button type="image" class="video-btn" data-bs-toggle="modal"
+                          data-bs-target="#videoModal"
+                          data-bs-src="https://www.youtube.com/embed/A9XbscpuXzY">
+                    <i class="fas fa-play img-fluid" alt="DbSchema Video Presentation"
+                       style="color: white;"></i>
+                  </button>
+                </div>
+                <div class="media-card-body">
+                  <p class="product">{{item.cardProduct}}</p>
+                  <p class="text">{{item.cardText}}</p>
+                </div>
+
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+        <button class="carousel-control-prev left-btn" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+          <i id="chevron" class="fal fa-chevron-circle-left" aria-hidden="true"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next right-btn" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+          <i id="chevron" class="fal fa-chevron-circle-right" aria-hidden="true"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+
+      </div>
+
+
+
+
+
+      <!-- ////////////////////////////////////////////////////////Button for slide//////////////////////////////////////////////////////////////////////////////// -->
+
+      <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    </div>
+  </div>
+
+
+</div>
+
+<button class="media-btn d-flex justify-content-center align-items-center ">SEE ALL MEDIA</button>
+
+<tr></tr>
+
+<!-- /////////////////////////////////////////////////// MODAL //////////////////////////////////////////////////////////////////////////// -->
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="dbschemaModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+
+        <div class="ratio ratio-16x9">
+          <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                  allow="autoplay"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

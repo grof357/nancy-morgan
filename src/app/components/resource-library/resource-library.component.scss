@@ -1,0 +1,141 @@
+.resource-library
+{
+  hr {
+    max-width: 1515px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 62px;
+  }
+  .title {
+    color: #000000;
+    font-size: 30px;
+    font-family: "Noto Sans, Bold";
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 33px;
+
+  }
+}
+
+.image-and-download-btn {
+  position: relative;
+}
+.image-and-download-btn {
+  overflow: hidden;
+}
+
+.image-and-download-btn:hover .resourceImage {
+  transform: scale(1.1);
+  transition: ease-out 0.3s;
+
+}
+
+.image-and-download-btn:hover .download-btn {
+  z-index: 1;
+}
+
+.download-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  z-index: -1;
+}
+
+
+
+
+.download {
+  height: 30px;
+  width: 120px;
+  font-size: 12px;
+  color: #D99E30;
+  border: 1px solid #D99E30;
+  border-radius: 0px;
+  background-color: white;
+  right: 0;
+  bottom: 0;
+
+
+}
+
+.download:hover {
+  color: white !important;
+  background-color: #D99E30 !important;
+}
+
+.row > * {
+  width: unset;
+  padding-right: calc(var(--bs-gutter-x) * 0.3);
+  padding-left: calc(var(--bs-gutter-x) * 0.3);
+}
+.row {
+  margin-right: calc(-2.7 * var(--bs-gutter-x));
+  margin-left: calc(-2 * var( --bs-gutter-x));
+}
+
+.resource-libarary-card {
+  width: 357px;
+  height: auto;
+  border-radius: 0px;
+  border: none;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  color: black;
+  margin-right: 15px;
+  padding-bottom: 25px;
+}
+
+.resource-libarary-card:hover {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all .55s ease-in-out;
+}
+
+.config-txt {
+  padding-top: 22px;
+  padding-left: 24px;
+}
+.resource-item {
+  font-family: "Roboto Medium";
+  font-size: 16px;
+  margin-bottom: 0px;
+  letter-spacing: 0.29px;
+  line-height: 21px;
+  color: #202121;
+  text-align: left;
+  padding-bottom: 5px;
+}
+.resource-txt {
+  margin-top: 0px;
+  text-align: left;
+  padding-left: 0px;
+  color: #888888;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.14px;
+  max-width: 309px;
+  padding-bottom: 5px;
+}
+
+.resource-txt p {
+  margin-bottom: 0px;
+}
+
+.seeAllResources {
+  margin-top: 20px;
+  font-size: 14px;
+  background-color: #D99E30;
+  color: white;
+  font-family: "Noto Sans, SemiBold";
+  width: 204px;
+  height: 50px;
+  border: none;
+}

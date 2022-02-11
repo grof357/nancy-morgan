@@ -3,7 +3,7 @@
   padding-bottom: 15px;
   padding-left: 202px;
   padding-right: 202px;
-  
+
 }
 
 .information {
@@ -88,4 +88,16 @@
     img {
         object-fit: none;
     }
+}
+
+@media (max-width: 1800px) {
+  .information {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 40px;
+  }
+  .register-login{
+    padding-right: 0px;
+    margin-right: 40px;
+  }
 }

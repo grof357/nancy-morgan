@@ -91,6 +91,8 @@
 //slider..................
 
 
+
+
 .mySlides {
   margin-top: 7px;
   background-color: white;
@@ -200,3 +202,47 @@
 .slide-btn:focus {
   box-shadow: none;
 }
+
+
+
+@media (max-width: 1850px) {
+
+  .firstSlide {
+   margin-left: unset;
+  }
+}
+
+@media (max-width: 1800px) {
+  .container1 {
+    max-width: unset;
+    margin-left: 0px;
+    margin-left: 0px;
+    padding-left: 40px;
+  }
+
+  .text-sectionA {
+    margin-left: 0px;
+    margin-left: 40px;
+  }
+
+ .navbar {
+  margin-right: 80px;
+}
+
+}
+
+@media (max-width: 1000px) {
+.firstSlide {
+  justify-content: unset!important;
+}
+}
+
+@media (max-width: 860px) {
+  .slidePictures {
+    display: none;
+  }
+}
+
+
+
+

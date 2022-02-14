@@ -134,3 +134,8 @@
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 
+@media (max-width: 1800px) {
+  .row {
+    margin-right: 0px;
+  }
+}

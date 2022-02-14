@@ -1,0 +1,131 @@
+.buisness {
+  width: 143px;
+  height: 45px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  position: relative;
+  text-align: center;
+  top: 353px;
+  font-size: 16px;
+  padding-top: 14px;
+  padding-left: 9px;
+  font-family: "Noto Sans, Medium";
+}
+
+.card1 .image {
+  background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, var(--unnamed-color-ffffff) 15%, #868686 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 15%, #868686 100%) 0% 0% no-repeat padding-box;
+  height: 395px;
+  width: 100%;
+  position: relative;
+  padding-top: 5px;
+}
+
+.card1 .image img {
+  /* width: 100%; */
+  height: 390px;
+  padding: 5px;
+  position: absolute;
+}
+
+
+
+.card1 {
+  position: relative;
+  width: 332px;
+  height: 390px;
+  border-radius: 0px;
+  border: none;
+  margin-bottom: 10px;
+  visibility: visible;
+}
+
+.card1-body {
+  color: black;
+  padding: 30px;
+  font-family: 'Noto Sans Regular';
+  font-size: 16px;
+  padding-top: 21px;
+  padding-right: 20px;
+  padding-left: 38px;
+
+  p {
+    margin-top: 10px;
+
+  }
+}
+
+.woundCare {
+  margin-right: 3px;
+  color: #D99E30 !important;
+}
+
+.secondParagraph {
+  color: #888888;
+}
+
+
+
+
+
+.custom-container .card1 .image img:hover {
+  object-fit: none;
+
+}
+
+
+.card-overlay {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.card1:hover {
+  visibility: hidden;
+}
+
+.card1:hover .card-overlay {
+  visibility: visible;
+}
+
+.card-overlay span {
+  color: #D99E30;
+}
+
+.card-overlay p {
+  color: #888888;
+}
+
+.custom-container {
+  max-width: 1800px;
+}
+
+
+.title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Noto Sans, Bold";
+  font-size: 30px;
+  padding-top: 23px;
+  margin-bottom: 0px;
+  padding-bottom: 28px;
+}
+
+
+.row > * {
+  flex-shrink: 0;
+  width: unset;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 2.5);
+  padding-left: calc(var(--bs-gutter-x) * -1.5);
+  margin-top: var(--bs-gutter-y);
+}
+.row {
+  margin-right: calc(-3 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}

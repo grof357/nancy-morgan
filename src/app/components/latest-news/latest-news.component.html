@@ -1,0 +1,42 @@
+<h1 class="title">Latest News And Blog</h1>
+<div class="container  custom-container" style="margin-bottom: 40px; position: relative;">
+  <div class="row d-flex justify-content-center">
+
+    <div *ngFor='let item of cards'>
+      <div class="card1  ">
+        <div class="image">
+          <img [src]="item.cardPicture" width="100%" alt="">
+          <p class="buisness">BUSINESS</p>
+        </div>
+        <div class="card1-body">
+          {{item.firstCardText}}
+          <p class="secondParagraph"><span class="woundCare">Wound Care</span>/  No Comment</p>
+        </div>
+        <div class="card-overlay">
+          <h2>{{item.cardDate}}</h2>
+          <h6> {{item.secondCardSubtitle}} </h6>
+          <p><span>Wound Care</span>/ No comment</p>
+          <p>{{item.secondCardText}}</p>
+          <div class="d-flex">
+            <img [src]="item.secondCardPicture" alt="" style="object-fit: contain;">
+            <div style="margin-left: 10px;">
+              <p style="margin-bottom: 10px;">{{item.secondCardProfession}}</p>
+              <h6>{{item.secondCardName}}</h6>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+

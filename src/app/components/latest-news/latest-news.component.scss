@@ -1,7 +1,7 @@
 .buisness {
-  width: 143px;
-  height: 45px;
-  background-color: rgb(255, 255, 255);
+  width: 144px;
+  height: 37px;
+  background-color: white;
   color: black;
   position: relative;
   text-align: center;
@@ -48,6 +48,7 @@
   padding-top: 21px;
   padding-right: 20px;
   padding-left: 38px;
+  background-color: white;
 
   p {
     margin-top: 10px;
@@ -70,9 +71,12 @@
 
 .custom-container .card1 .image img:hover {
   object-fit: none;
-
 }
 
+.card1-body:hover {
+  background-color: red;
+  z-index: 50;
+}
 
 .card-overlay {
   visibility: hidden;
@@ -83,6 +87,68 @@
   right: 0;
   height: 100%;
   width: 100%;
+
+  h2 {
+    font-size: 22px;
+    font-family: "Noto Sans, SemiBold";
+    padding-top: 49px;
+    padding-left: 38px;
+    padding-bottom: 12px;
+  }
+  h6 {
+    padding-left: 38px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    margin-bottom: 7px;
+  }
+  p {
+    padding-left: 38px;
+    letter-spacing: 0.41px;
+    line-height: 22px;
+  }
+  .category-comment{
+    padding-bottom: 27px;
+  }
+  .hover-txt {
+    padding-bottom: 44px;
+    line-height: 26px;
+    padding-right: 35px;
+    letter-spacing: 0.5px;
+    margin-bottom: 9px;
+  }
+  .hover-picture {
+    object-fit: contain;
+    padding-left: 39px;
+    padding-top: 8px;
+  }
+  .hover-profession {
+    margin-bottom: 0px;
+    font-family: "Noto Sans, Italic";
+    font-size: 14px;
+    color: #888888;
+    padding-left: 10px;
+    line-height: 22px;
+    letter-spacing: 0.00px;
+  }
+  .hover-name {
+    font-size: 16px;
+    font-family: 'Noto Sans Regular';
+    color: #202121;
+    padding-left: 7px;
+    line-height: 19px;
+
+  }
+  .div-prof-name {
+    margin-left: 10px;
+    padding-top: 14px;
+
+  }
+  .dash {
+    width: 45px;
+    border: solid 1px black;
+    margin-left: 39px;
+    margin-bottom: 37px;
+  }
 }
 
 .card1:hover {
@@ -128,4 +194,10 @@
 .row {
   margin-right: calc(-3 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.lastNewsAndBlog {
+ padding-bottom: 235px;
+  background: linear-gradient( white 63.2%, #F6F6F7 36.8%);
+  z-index: -2;
 }

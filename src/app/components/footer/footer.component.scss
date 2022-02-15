@@ -1,0 +1,96 @@
+.futer button {
+  width: 109px;
+  height: 39px;
+  font-size: 16px;
+  background-color: #D99E30;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.futer {
+  background-color: #202121;
+  padding-top: 114px;
+
+}
+
+.futer input {
+  border-radius: 0px;
+  margin-bottom: 10px;
+  background-color: #2B2C2C;
+  border: none;
+}
+
+.futer h5 {
+  margin-bottom: 20px;
+}
+
+.futer h5, label {
+  color: white;
+
+}
+
+.futer p, a {
+  color: #ACACAC;
+}
+
+.futer .btn-primary:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(191, 126, 4);
+  border-color: none;
+  border: none;
+}
+
+.futer .btn-primary:active {
+  background-color: #D99E30
+}
+
+.futer .btn-primary:focus {
+  background-color: rgb(191, 126, 4);
+}
+
+.futer .btn-primary:focus {
+  box-shadow: none;
+  border-color: unset;
+}
+
+.futer .form-control:focus {
+  border-color: unset;
+  box-shadow: none;
+}
+
+.futer a:hover {
+  color: unset;
+}
+
+.futer .col {
+  margin-left: 50px;
+}
+
+.futer .bg-secondary {
+  padding-bottom: 0px !important;
+  padding-top: 1px !important;
+  opacity: .5;
+}
+
+.futer .icon {
+  color: #ACACAC;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.futer .btn-outline-light {
+  border-radius: 50%;
+  color: #ACACAC;
+  width: 38px;
+  height: 38px;
+  font-size: 15px
+}
+
+.futer .copyright-icons {
+  margin-top: 20px;
+}
+
+.futer .row {
+  margin-bottom: 70px;
+}

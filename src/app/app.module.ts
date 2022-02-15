@@ -14,21 +14,23 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MediaComponent } from './components/media/media.component';
 import { ResourceLibraryComponent } from './components/resource-library/resource-library.component';
 import { LatestNewsComponent } from './components/latest-news/latest-news.component';
+import {FooterComponent} from "./components/footer/footer.component";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponentComponent,
-    LoginRegisterBandComponent,
-    SectionAComponent,
-    LogoNavbarComponent,
-    SectionBComponent,
-    CardsComponentComponent,
-    BlackSlideComponent,
-    MediaComponent,
-    ResourceLibraryComponent,
-    LatestNewsComponent
-  ],
+    declarations: [
+        AppComponent,
+        HeaderComponentComponent,
+        LoginRegisterBandComponent,
+        SectionAComponent,
+        LogoNavbarComponent,
+        SectionBComponent,
+        CardsComponentComponent,
+        BlackSlideComponent,
+        MediaComponent,
+        ResourceLibraryComponent,
+        LatestNewsComponent,
+        FooterComponent
+    ],
   imports: [
     BrowserModule,
     FontAwesomeModule

@@ -17,7 +17,7 @@ export class LatestNewsComponent implements OnInit {
       "cardDate": "JULY 25, 2020",
       "secondCardText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
       "secondCardSubtitle":"LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING",
-      "secondCardPicture":"/assets/pictures/glavusa1.png",
+      "secondCardPicture":"/assets/pictures/glavusa4.png",
       "secondCardName":"Susan Andrews",
       "secondCardProfession":"Registered Nurse"
 
@@ -52,7 +52,7 @@ export class LatestNewsComponent implements OnInit {
       "cardDate": "MAY 28, 2020",
       "secondCardText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
       "secondCardSubtitle":"LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING",
-      "secondCardPicture":"/assets/pictures/glavusa4.png",
+      "secondCardPicture":"/assets/pictures/glavusa5.png",
       "secondCardName":"James John",
       "secondCardProfession":"Surgeon"
 

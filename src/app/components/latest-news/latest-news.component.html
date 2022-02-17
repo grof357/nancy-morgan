@@ -47,18 +47,20 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-             <div class="image"><img [src]="item.cardPicture" width="100%" alt=""></div>
+              <div class="image"><img [src]="item.cardPicture" width="100%" alt=""></div>
               <p class="buisness">BUSINESS</p>
-              <div>{{item.firstCardText}}</div>
-              <p class="secondParagraph"><span class="woundCare">Wound Care</span>/ No Comment</p>
+              <div class="firstCardForm">
+                <div class="firstcardtext">{{item.firstCardText}}</div>
+                <p class="secondParagraph"><span class="woundCare">Wound Care</span>/ No Comment</p>
+              </div>
             </div>
             <div class="flip-card-back">
               <h2>{{item.cardDate}}</h2>
-              <h6> {{item.secondCardSubtitle}} </h6>
+              <h3> {{item.secondCardSubtitle}} </h3>
               <p class="category-comment"><span>Category</span>/ No Comment</p>
               <hr class="dash">
               <p class="hover-txt">{{item.secondCardText}}</p>
-              <div class="d-flex">
+              <div class="d-flex secondForm">
                 <img class="hover-picture" [src]="item.secondCardPicture" alt="" style="object-fit: contain;">
                 <div class="div-prof-name">
                   <p class="hover-profession">{{item.secondCardProfession}}</p>

@@ -5,11 +5,13 @@
   color: black;
   position: absolute;
   text-align: center;
-  top: 353px;
+  top: 359px;
+  /* left: -1px; */
   font-size: 16px;
   padding-top: 14px;
-  padding-left: 9px;
+  padding-left: 7px;
   font-family: "Noto Sans, Medium";
+  line-height: 22px;
 }
 //
  .image {
@@ -21,6 +23,94 @@
    padding: 10px 5px 0px 5px;
 
 }
+
+.firstcardtext {
+  font-family: 'Noto Sans Regular';
+  text-align: start;
+  margin-bottom: 9px;
+}
+
+.firstCardForm {
+  padding: 22px 30px 25px 39px;
+}
+
+.secondParagraph {
+  text-align: start;
+  font-family: 'Noto Sans Regular';
+  font-size: 16px;
+  color: #888888;
+  span {
+    color: #D99E30;
+  }
+}
+
+.flip-card-back {
+  h2 {
+    font-family: "Noto Sans, SemiBold";
+    line-height: 30px;
+    font-size: 22px;
+    padding-top: 47px;
+    text-align: left;
+    padding-left: 38px;
+    margin-bottom: 18px;
+
+  }
+  h3 {
+    font-family: 'Noto Sans Regular';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+    padding-left: 38px;
+  }
+  .category-comment {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Noto Sans Regular';
+    color: #888888;
+    text-align: start;
+    padding-left: 38px;
+    margin-bottom: 42px;
+    span {
+      color: #D99E30;
+    }
+  }
+
+  .hover-txt {
+    text-align: start;
+    padding-left: 38px;
+    line-height: 26px;
+    font-family: "Noto Sans Regular";
+    font-size: 16px;
+    color: #888888;
+    padding-right: 20px;
+    margin-bottom: 61px;
+  }
+  .secondForm {
+    padding-left: 39px;
+    text-align: start;
+    .hover-profession {
+      font-family: "Noto Sans, Italic";
+      font-size: 14px;
+      color: #888888;
+      line-height: 19px;
+      margin-bottom: 0px;
+      padding-top: 7px;
+      margin-bottom: 2px;
+    }
+
+    .hover-name {
+      color: #202121;
+      font-size: 16px;
+      font-family: "Noto Sans Regular";
+    }
+
+    .hover-picture {
+      margin-right: 18px;
+    }
+
+  }
+}
+
 //
 //.image img {
 //   width: 100%;
@@ -201,7 +291,7 @@
 
 .lastNewsAndBlog {
  padding-bottom: 235px;
-  background: linear-gradient( white 63.2%, #F6F6F7 36.8%);
+  background: linear-gradient(white 56.7%, #F6F6F7 43.3%);
   z-index: -2;
 }
 

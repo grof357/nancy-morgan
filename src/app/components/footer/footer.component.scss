@@ -98,7 +98,8 @@
   color: #ACACAC;
   width: 38px;
   height: 38px;
-  font-size: 15px
+  font-size: 15px;
+  margin-left: 16px !important;
 }
 
 .futer .copyright-icons {
@@ -132,6 +133,7 @@
     margin-bottom: 13px;
     img {
       padding-right: 11px;
+      padding-left: 1px;
     }
   }
   .number {
@@ -189,7 +191,10 @@
 
   margin-left: 0px;
   padding-top: 8px !important;
-  h5 {margin-bottom: 8px;}
+  h5 {
+    margin-bottom: 8px;
+    letter-spacing: 0.2px;
+  }
   .documentation {margin-bottom: 14px;}
 
   .privacipolicy { margin-bottom: 12px;}
@@ -197,12 +202,12 @@
 }
 
 .peti {
-  margin-right: 33px;
+  margin-right: 66px;
   padding-top: 7px !important;
 
   h5 {
     margin-bottom: 9px;
-
+    letter-spacing: 0.2px;
   }
   input {
     width: 260px;
@@ -214,7 +219,7 @@
   }
 
   label {
-    letter-spacing: 0.7px;
+    letter-spacing: 0.6px;
 
   }
 
@@ -230,4 +235,21 @@
 
   width: 1200px;
 
+}
+
+.copyright {
+  font-size: 16px;
+  padding-top: 16px;
+  padding-left: 18px;
+  color: #4D4D4D;
+}
+
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1354px;
+  }
+}
+
+.btn-media {
+  padding-top: 6px;
 }
